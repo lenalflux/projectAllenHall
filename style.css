@@ -19,14 +19,21 @@ h1 {
   color: #df0772;
 }
 
+h1,
+h2 {
+  margin: 0;
+}
+
 h2 {
   color: #fe546f;
 }
 
 p {
+  font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
   color: #ff9e7d;
   margin: 0;
-  width: 300px;
+  width: 80vw;
 }
 
 /* Media Queries */
@@ -38,10 +45,6 @@ p {
 
   .container {
     align-items: flex-start;
-  }
-
-  p {
-    width: 600px;
   }
 }
 
@@ -60,5 +63,6 @@ p {
 
   p {
     width: 900px;
+    font-size: 1rem;
   }
 }
