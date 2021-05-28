@@ -1,5 +1,12 @@
 body {
   margin: 30px;
+  background: #352a55;
+}
+
+/* colors */
+
+a:visited {
+  color: #0188a5;
 }
 
 .container {
@@ -8,10 +15,21 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: #df0772;
+}
+
+h2 {
+  color: #fe546f;
+}
+
 p {
+  color: #ff9e7d;
   margin: 0;
   width: 300px;
 }
+
+/* Media Queries */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   li {
